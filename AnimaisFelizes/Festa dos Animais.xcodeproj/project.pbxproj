@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A0548D91C8B52510018739D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0548D81C8B52510018739D /* AppDelegate.swift */; };
+		4A0548DB1C8B52510018739D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0548DA1C8B52510018739D /* ViewController.swift */; };
+		4A0548DE1C8B52510018739D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0548DC1C8B52510018739D /* Main.storyboard */; };
+		4A0548E01C8B52510018739D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A0548DF1C8B52510018739D /* Assets.xcassets */; };
+		4A0548E31C8B52510018739D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0548E11C8B52510018739D /* LaunchScreen.storyboard */; };
+		4A0548EE1C8B52510018739D /* AnimaisFelizesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0548ED1C8B52510018739D /* AnimaisFelizesTests.swift */; };
+		4A0548F91C8B52510018739D /* AnimaisFelizesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0548F81C8B52510018739D /* AnimaisFelizesUITests.swift */; };
+		4A05490B1C8B594F0018739D /* Some_Animal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A05490A1C8B594F0018739D /* Some_Animal.ttf */; };
+		4A0549111C8B5C980018739D /* bg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A05490C1C8B5C980018739D /* bg.mp3 */; };
+		4A0549121C8B5C980018739D /* cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4A05490D1C8B5C980018739D /* cat.wav */; };
+		4A0549131C8B5C980018739D /* dog.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4A05490E1C8B5C980018739D /* dog.wav */; };
+		4A0549141C8B5C980018739D /* elephant.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4A05490F1C8B5C980018739D /* elephant.wav */; };
+		4A0549151C8B5C980018739D /* lion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4A0549101C8B5C980018739D /* lion.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A0548EA1C8B52510018739D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A0548CD1C8B52510018739D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A0548D41C8B52510018739D;
+			remoteInfo = AnimaisFelizes;
+		};
+		4A0548F51C8B52510018739D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A0548CD1C8B52510018739D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A0548D41C8B52510018739D;
+			remoteInfo = AnimaisFelizes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A0548D51C8B52510018739D /* Festa dos Animais.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Festa dos Animais.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0548D81C8B52510018739D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A0548DA1C8B52510018739D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A0548DD1C8B52510018739D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A0548DF1C8B52510018739D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A0548E21C8B52510018739D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A0548E41C8B52510018739D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A0548E91C8B52510018739D /* Festa dos Animais.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Festa dos Animais.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0548ED1C8B52510018739D /* AnimaisFelizesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimaisFelizesTests.swift; sourceTree = "<group>"; };
+		4A0548EF1C8B52510018739D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A0548F41C8B52510018739D /* Festa dos Animais.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Festa dos Animais.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0548F81C8B52510018739D /* AnimaisFelizesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimaisFelizesUITests.swift; sourceTree = "<group>"; };
+		4A0548FA1C8B52510018739D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A05490A1C8B594F0018739D /* Some_Animal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Some_Animal.ttf; sourceTree = "<group>"; };
+		4A05490C1C8B5C980018739D /* bg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bg.mp3; sourceTree = "<group>"; };
+		4A05490D1C8B5C980018739D /* cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cat.wav; sourceTree = "<group>"; };
+		4A05490E1C8B5C980018739D /* dog.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dog.wav; sourceTree = "<group>"; };
+		4A05490F1C8B5C980018739D /* elephant.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = elephant.wav; sourceTree = "<group>"; };
+		4A0549101C8B5C980018739D /* lion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lion.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A0548D21C8B52510018739D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0548E61C8B52510018739D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0548F11C8B52510018739D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A0548CC1C8B52510018739D = {
+			isa = PBXGroup;
+			children = (
+				4A0548D71C8B52510018739D /* AnimaisFelizes */,
+				4A0548EC1C8B52510018739D /* AnimaisFelizesTests */,
+				4A0548F71C8B52510018739D /* AnimaisFelizesUITests */,
+				4A0548D61C8B52510018739D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A0548D61C8B52510018739D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A0548D51C8B52510018739D /* Festa dos Animais.app */,
+				4A0548E91C8B52510018739D /* Festa dos Animais.xctest */,
+				4A0548F41C8B52510018739D /* Festa dos Animais.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A0548D71C8B52510018739D /* AnimaisFelizes */ = {
+			isa = PBXGroup;
+			children = (
+				4A0548D81C8B52510018739D /* AppDelegate.swift */,
+				4A0548DA1C8B52510018739D /* ViewController.swift */,
+				4A0548DC1C8B52510018739D /* Main.storyboard */,
+				4A0548DF1C8B52510018739D /* Assets.xcassets */,
+				4A0549161C8B5C9E0018739D /* Assets */,
+				4A0548E11C8B52510018739D /* LaunchScreen.storyboard */,
+				4A0548E41C8B52510018739D /* Info.plist */,
+			);
+			path = AnimaisFelizes;
+			sourceTree = "<group>";
+		};
+		4A0548EC1C8B52510018739D /* AnimaisFelizesTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A0548ED1C8B52510018739D /* AnimaisFelizesTests.swift */,
+				4A0548EF1C8B52510018739D /* Info.plist */,
+			);
+			path = AnimaisFelizesTests;
+			sourceTree = "<group>";
+		};
+		4A0548F71C8B52510018739D /* AnimaisFelizesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A0548F81C8B52510018739D /* AnimaisFelizesUITests.swift */,
+				4A0548FA1C8B52510018739D /* Info.plist */,
+			);
+			path = AnimaisFelizesUITests;
+			sourceTree = "<group>";
+		};
+		4A0549161C8B5C9E0018739D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4A05490A1C8B594F0018739D /* Some_Animal.ttf */,
+				4A05490C1C8B5C980018739D /* bg.mp3 */,
+				4A05490D1C8B5C980018739D /* cat.wav */,
+				4A05490E1C8B5C980018739D /* dog.wav */,
+				4A05490F1C8B5C980018739D /* elephant.wav */,
+				4A0549101C8B5C980018739D /* lion.wav */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A0548D41C8B52510018739D /* Festa dos Animais */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0548FD1C8B52510018739D /* Build configuration list for PBXNativeTarget "Festa dos Animais" */;
+			buildPhases = (
+				4A0548D11C8B52510018739D /* Sources */,
+				4A0548D21C8B52510018739D /* Frameworks */,
+				4A0548D31C8B52510018739D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Festa dos Animais";
+			productName = AnimaisFelizes;
+			productReference = 4A0548D51C8B52510018739D /* Festa dos Animais.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A0548E81C8B52510018739D /* Festa dos AnimaisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0549001C8B52510018739D /* Build configuration list for PBXNativeTarget "Festa dos AnimaisTests" */;
+			buildPhases = (
+				4A0548E51C8B52510018739D /* Sources */,
+				4A0548E61C8B52510018739D /* Frameworks */,
+				4A0548E71C8B52510018739D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A0548EB1C8B52510018739D /* PBXTargetDependency */,
+			);
+			name = "Festa dos AnimaisTests";
+			productName = AnimaisFelizesTests;
+			productReference = 4A0548E91C8B52510018739D /* Festa dos Animais.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A0548F31C8B52510018739D /* Festa dos AnimaisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0549031C8B52510018739D /* Build configuration list for PBXNativeTarget "Festa dos AnimaisUITests" */;
+			buildPhases = (
+				4A0548F01C8B52510018739D /* Sources */,
+				4A0548F11C8B52510018739D /* Frameworks */,
+				4A0548F21C8B52510018739D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A0548F61C8B52510018739D /* PBXTargetDependency */,
+			);
+			name = "Festa dos AnimaisUITests";
+			productName = AnimaisFelizesUITests;
+			productReference = 4A0548F41C8B52510018739D /* Festa dos Animais.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A0548CD1C8B52510018739D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ezefranca;
+				TargetAttributes = {
+					4A0548D41C8B52510018739D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					4A0548E81C8B52510018739D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 4A0548D41C8B52510018739D;
+					};
+					4A0548F31C8B52510018739D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 4A0548D41C8B52510018739D;
+					};
+				};
+			};
+			buildConfigurationList = 4A0548D01C8B52510018739D /* Build configuration list for PBXProject "Festa dos Animais" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A0548CC1C8B52510018739D;
+			productRefGroup = 4A0548D61C8B52510018739D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A0548D41C8B52510018739D /* Festa dos Animais */,
+				4A0548E81C8B52510018739D /* Festa dos AnimaisTests */,
+				4A0548F31C8B52510018739D /* Festa dos AnimaisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A0548D31C8B52510018739D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0549111C8B5C980018739D /* bg.mp3 in Resources */,
+				4A0549141C8B5C980018739D /* elephant.wav in Resources */,
+				4A05490B1C8B594F0018739D /* Some_Animal.ttf in Resources */,
+				4A0548E31C8B52510018739D /* LaunchScreen.storyboard in Resources */,
+				4A0549121C8B5C980018739D /* cat.wav in Resources */,
+				4A0549131C8B5C980018739D /* dog.wav in Resources */,
+				4A0549151C8B5C980018739D /* lion.wav in Resources */,
+				4A0548E01C8B52510018739D /* Assets.xcassets in Resources */,
+				4A0548DE1C8B52510018739D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0548E71C8B52510018739D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0548F21C8B52510018739D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A0548D11C8B52510018739D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0548DB1C8B52510018739D /* ViewController.swift in Sources */,
+				4A0548D91C8B52510018739D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0548E51C8B52510018739D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0548EE1C8B52510018739D /* AnimaisFelizesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0548F01C8B52510018739D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0548F91C8B52510018739D /* AnimaisFelizesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A0548EB1C8B52510018739D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A0548D41C8B52510018739D /* Festa dos Animais */;
+			targetProxy = 4A0548EA1C8B52510018739D /* PBXContainerItemProxy */;
+		};
+		4A0548F61C8B52510018739D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A0548D41C8B52510018739D /* Festa dos Animais */;
+			targetProxy = 4A0548F51C8B52510018739D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A0548DC1C8B52510018739D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A0548DD1C8B52510018739D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A0548E11C8B52510018739D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A0548E21C8B52510018739D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A0548FB1C8B52510018739D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A0548FC1C8B52510018739D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A0548FE1C8B52510018739D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnimaisFelizes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ezefranca.AnimaisFelizes;
+				PRODUCT_NAME = "Festa dos Animais";
+			};
+			name = Debug;
+		};
+		4A0548FF1C8B52510018739D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnimaisFelizes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ezefranca.AnimaisFelizes;
+				PRODUCT_NAME = "Festa dos Animais";
+			};
+			name = Release;
+		};
+		4A0549011C8B52510018739D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AnimaisFelizesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ezefranca.AnimaisFelizesTests;
+				PRODUCT_NAME = "Festa dos Animais";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Festa dos Animais.app/Festa dos Animais";
+			};
+			name = Debug;
+		};
+		4A0549021C8B52510018739D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AnimaisFelizesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ezefranca.AnimaisFelizesTests;
+				PRODUCT_NAME = "Festa dos Animais";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Festa dos Animais.app/Festa dos Animais";
+			};
+			name = Release;
+		};
+		4A0549041C8B52510018739D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AnimaisFelizesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ezefranca.AnimaisFelizesUITests;
+				PRODUCT_NAME = "Festa dos Animais";
+				TEST_TARGET_NAME = AnimaisFelizes;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4A0549051C8B52510018739D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AnimaisFelizesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ezefranca.AnimaisFelizesUITests;
+				PRODUCT_NAME = "Festa dos Animais";
+				TEST_TARGET_NAME = AnimaisFelizes;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A0548D01C8B52510018739D /* Build configuration list for PBXProject "Festa dos Animais" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0548FB1C8B52510018739D /* Debug */,
+				4A0548FC1C8B52510018739D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A0548FD1C8B52510018739D /* Build configuration list for PBXNativeTarget "Festa dos Animais" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0548FE1C8B52510018739D /* Debug */,
+				4A0548FF1C8B52510018739D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A0549001C8B52510018739D /* Build configuration list for PBXNativeTarget "Festa dos AnimaisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0549011C8B52510018739D /* Debug */,
+				4A0549021C8B52510018739D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A0549031C8B52510018739D /* Build configuration list for PBXNativeTarget "Festa dos AnimaisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0549041C8B52510018739D /* Debug */,
+				4A0549051C8B52510018739D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A0548CD1C8B52510018739D /* Project object */;
+}
